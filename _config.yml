@@ -1,0 +1,199 @@
+# Site settings
+title: 六道漫步
+SEOTitle: 六道漫步的博客 | Liudaomanbu Blog
+header-img: img/home-bg.jpg
+email: 250622148@qq.com
+description: "Blog"
+keyword: "六道漫步 liudaomanbu"
+url: "https://liudaomanbu.github.io"              # your host, for absolute URL
+baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+#weibo_username:     liudaomanbu
+#zhihu_username:     liudaomanbu
+github_username:    liudaomanbu
+#facebook_username:  liudaomanbu
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: liudaomanbublog
+
+# Duoshuo settings
+#duoshuo_username: liudaomanbublog
+# Share component is depend on Comment so we can NOT use share only.
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 3d4ce9f68b1ac3718da7825e0874d0a7
+# Google Analytics
+ga_track_id: 'UA-113724964-1'            # Format: UA-xxxxxx-xx
+ga_domain: liudaomanbu
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "人生不过是一场百年不醒的幻梦罢了"
+sidebar-avatar: /img/sidebar-avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "ice1000",
+        href: "http://ice1000.org/"
+    },
+    {
+        title: "Michael Lee",
+        href: "https://github.com/mikecovlee"
+    },
+    {
+        title: "chillmagic",
+        href: "https://chillmagic.github.io/"
+    },
+    {
+        title: "Eldath",
+        href: "http://ray-eldath.tech/"
+    },
+    {
+        title: "Glavo",
+        href: "http://www.glavo.org/"
+    },
+    {
+        title: "77.",
+        href: "https://ljason.cn/"
+    },
+    {
+        title: "Frice Engine 游戏引擎",
+        href: "https://icela.github.io/"
+    },
+    {
+        title: "CovScript 程序设计语言",
+        href: "http://covariant.cn/"
+    },
+    {
+        title: "sxysxy",
+        href: "http://sxysxy.org/"
+    },
+    {
+        title: "冰果冻",
+        href: "https://fydui.github.io/"
+    },
+    {
+        title: "Night Farmer",
+        href: "http://www.nightfarmer.win/"
+    },
+    {
+        title: "繁花",
+        href: "https://blog.fhyun.top/"
+    },
+    {
+        title: "悠理酱",
+        href: "http://exyui.com/"
+    },
+    {
+        title: "依依",
+        href: "https://shyling.com/"
+    },
+    {
+        title: "自乐",
+        href: "http://blog.csdn.net/inszva"
+    },
+    {
+        title: "孜然麻辣熊",
+        href: "https://xdd.io/"
+    },
+    {
+        title: "dramforever",
+        href: "http://dram.cf/"
+    },
+    {
+        title: "刘丰恺",
+        href: "https://lfkdsk.github.io/"
+    },
+    {
+        title: "长信宫灯",
+        href: "http://colliot.me/"
+    },
+    {
+        title: "16 进制",
+        href: "http://nyanblog.net/"
+    },
+    {
+        title: "BennyHuo / Kotlin 中文站",
+        href: "https://www.kotliner.cn/"
+    },
+    {
+        title: "Snakes",
+        href: "http://snakes.moe/"
+    },
+    {
+        title: "酸辣粉",
+        href: "http://www.gloomyghost.com/"
+    },
+    {
+        title: "DemoJameson",
+        href: "http://www.demojameson.com/"
+    },
+    {
+        title: "KirCute",
+        href: "https://kircute.github.io/"
+    },
+    {
+        title: "萌夜雀",
+        href: "https://lgzh1215.github.io/"
+    },
+    {
+        title: "净土社区",
+        href: "https://www.eliseos.org/en/home"
+    },
+    {
+        title: "Murasaki@安全大事件",
+        href: "http://www.uaf.li/"
+    },
+    {
+        title: "⑨BIE",
+        href: "https://ero.ink/"
+    }
+]
