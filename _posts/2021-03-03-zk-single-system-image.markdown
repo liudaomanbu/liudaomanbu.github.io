@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "ZooKeeper单一系统映像仅保证客户端级别的单调递增一致性"
-subtitle:   "ZooKeeper单一系统映像常见误解:保证读操作的严格数据一致性"
+subtitle:   "ZooKeeper单一系统映像常见误解:保证读操作获取最新值"
 date:       2021-03-03
 author:     "caotc"
 header-img: "img/home-bg.jpg"
