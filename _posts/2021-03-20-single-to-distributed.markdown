@@ -48,7 +48,6 @@ tags:
 - Netty是作为异步事件驱动的网络应用程序框架,默认NIO.所有使用netty的项目均使用了NIO方案,包括Apache Flink/Apache Spark/Elastic Search等项目.
 
 - Jetty,tomcat等容器也可以配置使用NIO方式
-- Jetty,tomcat等容器也可以配置使用NIO方式
 
 #### 请求AIO(Asynchronous I/O)
 
