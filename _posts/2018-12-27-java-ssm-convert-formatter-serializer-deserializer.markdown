@@ -25,8 +25,8 @@ tags:
 # 定义与区别
 类型转换、格式化、序列化与反序列化三个概念是相似而且经常相关,联系在一起的.
 - **类型转换(convert)：将A类型的源对象转换为目标B类型的对象.**
-- **格式化(formatter):将一个对象输出为显示的格式或者说容易让人理解的格式.以及把从显示的格式解析为对象.**
-- **序列化(serializer)与反序列化(deserializer):序列化是指把对象二进制化数据写入IO流中.反序列化是指从IO流中读取二进制化数据转换为对象.**
+- **格式化(format):将一个对象输出为显示的格式或者说容易让人理解的格式.以及把从显示的格式解析为对象.**
+- **序列化(serializer)与反序列化(deserializer):序列化是指把对象转换为二进制化数据.反序列化是指把二进制化数据转换为对象.通常涉及到使用流进行IO传输.**
 
 # 一.Spring中的类型转换与格式化
 Spring中其实存在两套类型转换与格式化的设计.
@@ -70,7 +70,7 @@ PropertyEditor实际上是设计为一个javaBean对象的属性的编辑器,所
 ## (二). Spring中的Converter SPI和Formatter SPI
 为了弥补这些问题,Spring3中引入了新的接口设计来取代PropertyEditor接口.
 
-网络大部分博客说是Converter接口取代了PropertyEditor接口,实际上不太正确,应该说是Formatter接口取代了PropertyEditor接口, 或者说Formatter接口和Converter接口各自取代了PropertyEditor接口的一部分职责,将类型转换与序列化和反序列化为字符串的职责分开了.
+网络大部分博客说是Converter接口取代了PropertyEditor接口,实际上不太正确,应该说是Formatter接口取代了PropertyEditor接口, 或者说Formatter接口和Converter接口各自取代了PropertyEditor接口的一部分职责,将类型转换与格式化的职责分开了.
 
 **Converter及相关接口被设计为通用的类型转换器,取代了PropertyEditor接口的类型转换职责.**
 ```java
